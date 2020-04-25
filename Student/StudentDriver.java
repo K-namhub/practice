@@ -1,17 +1,17 @@
-/* ÀÌ ÇÁ·Î±×·¥Àº ÇĞ»ıÀÇ ÀÌ¸§À» ¹Ş°í °úÁ¦ Á¡¼ö, ½ÃÇèÁ¡¼ö¸¦ ÀÔ·Â¹Ş¾Æ ÇÕ»êÇØ ÃÑÁ¡°ú ÇĞÁ¡À» ¾Ë·ÁÁÖ´Â ÇÁ·Î±×·¥ÀÌ´Ù. */
-public class StudentDriver{    // Å¬·¡½ºÀÇ ¸Ó¸®ºÎ
+/* ì´ í”„ë¡œê·¸ë¨ì€ í•™ìƒì˜ ì´ë¦„ì„ ë°›ê³  ê³¼ì œ ì ìˆ˜, ì‹œí—˜ì ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ í•©ì‚°í•´ ì´ì ê³¼ í•™ì ì„ ì•Œë ¤ì£¼ëŠ” í”„ë¡œê·¸ë¨ì´ë‹¤. */
+public class StudentDriver{    // í´ë˜ìŠ¤ì˜ ë¨¸ë¦¬ë¶€
 	
-	public static void main(String [] args) {// main ¸Ş¼ÒµåÀÇ ¸Ó¸®ºÎ
-		Student stu1 = new Student();        // Student °´Ã¼¸¦ »ı¼ºÇÏ°í ÂüÁ¶º¯¼ö stu1ÀÌ ±× °´Ã¼¸¦ °¡¸®Å°°Ô ÇÔ
-		Student stu2 = new Student();		 // Student °´Ã¼¸¦ »ı¼ºÇÏ°í ÂüÁ¶º¯¼ö stu2°¡ ±× °´Ã¼¸¦ °¡¸®Å°°Ô ÇÔ
+	public static void main(String [] args) {// main ë©”ì†Œë“œì˜ ë¨¸ë¦¬ë¶€
+		Student stu1 = new Student();        // Student ê°ì²´ë¥¼ ìƒì„±í•˜ê³  ì°¸ì¡°ë³€ìˆ˜ stu1ì´ ê·¸ ê°ì²´ë¥¼ ê°€ë¦¬í‚¤ê²Œ í•¨
+		Student stu2 = new Student();		 // Student ê°ì²´ë¥¼ ìƒì„±í•˜ê³  ì°¸ì¡°ë³€ìˆ˜ stu2ê°€ ê·¸ ê°ì²´ë¥¼ ê°€ë¦¬í‚¤ê²Œ í•¨
 		
-		stu1.setStuName();		// stu1ÀÌ °¡¸®Å°´Â Student °´Ã¼ÀÇ setStuName ¸Ş¼Òµå¸¦ È£Ãâ
-		stu1.inputGrades(); 	// stu1ÀÌ °¡¸®Å°´Â Student °´Ã¼ÀÇ inputGrades ¸Ş¼Òµå¸¦ È£Ãâ
-		stu1.print();			// stu1ÀÌ °¡¸®Å°´Â Student °´Ã¼ÀÇ print() ¸Ş¼Òµå¸¦ È£Ãâ
+		stu1.setStuName();		// stu1ì´ ê°€ë¦¬í‚¤ëŠ” Student ê°ì²´ì˜ setStuName ë©”ì†Œë“œë¥¼ í˜¸ì¶œ
+		stu1.inputGrades(); 	 	// stu1ì´ ê°€ë¦¬í‚¤ëŠ” Student ê°ì²´ì˜ inputGrades ë©”ì†Œë“œë¥¼ í˜¸ì¶œ
+		stu1.print();			// stu1ì´ ê°€ë¦¬í‚¤ëŠ” Student ê°ì²´ì˜ print ë©”ì†Œë“œë¥¼ í˜¸ì¶œ
 		
-		stu2.setStuName();		// stu2ÀÌ °¡¸®Å°´Â Student °´Ã¼ÀÇ setStuName ¸Ş¼Òµå¸¦ È£Ãâ
-		stu2.inputGrades();		// stu2°¡ °¡¸®Å°´Â Student °´Ã¼ÀÇ inputGrades ¸Ş¼Òµå¸¦ È£Ãâ
-		stu2.print();			// stu2°¡ °¡¸®Å°´Â Student °´Ã¼ÀÇ print() ¸Ş¼Òµå¸¦ È£Ãâ
+		stu2.setStuName();		// stu2ì´ ê°€ë¦¬í‚¤ëŠ” Student ê°ì²´ì˜ setStuName ë©”ì†Œë“œë¥¼ í˜¸ì¶œ
+		stu2.inputGrades();		// stu2ê°€ ê°€ë¦¬í‚¤ëŠ” Student ê°ì²´ì˜ inputGrades ë©”ì†Œë“œë¥¼ í˜¸ì¶œ
+		stu2.print();			// stu2ê°€ ê°€ë¦¬í‚¤ëŠ” Student ê°ì²´ì˜ print ë©”ì†Œë“œë¥¼ í˜¸ì¶œ
 		
 	}
 	
